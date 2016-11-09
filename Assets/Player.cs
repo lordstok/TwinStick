@@ -6,7 +6,7 @@ public class Player : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		
+		Debug.Log ("Test 2 for sourcetree upload");
 	}
 	
 	// Update is called once per frame
