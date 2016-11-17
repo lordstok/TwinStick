@@ -6,13 +6,15 @@ public class Player : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log ("Test 2 for sourcetree upload");
+
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		Debug.Log ("H: " + CrossPlatformInputManager.GetAxis("Horizontal"));
 		Debug.Log ("V: " + CrossPlatformInputManager.GetAxis("Vertical"));
+		Debug.Log ("Fire 1: " + CrossPlatformInputManager.GetButtonDown("Fire 1"));
 
+	//	if (CrossPlatformInputManager.GetButtonDown
 	}
 }
